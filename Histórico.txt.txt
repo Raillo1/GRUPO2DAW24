@@ -1,0 +1,79 @@
+﻿Histórico.txt
+Tareas iniciales
+Jesús: Creación del repositorio remoto en github con dirección en:
+https://github.com/Raillo1/GRUPO2DAW24
+
+
+Gregorio: 
+* Creación del subdominio en cdmon.
+
+
+* Creación de la base de datos en phpMyAdmin.
+
+
+* Creación de las tablas correspondientes.
+
+
+David: Configuración de la base de datos en el config.txt.
+Creación del repositorio local y enlace al repositorio remoto en github
+Jesús:
+git init.
+git add README.md.
+git branch -M main.
+git remote add origin git@github.com:Raillo1/GRUPO2DAW24.git.
+Clonación del repositorio de los demás integrantes
+David y Gregorio:
+git clone https://github.com/Raillo1/GRUPO2DAW24
+commit #1 Jesús
+git pull
+git add .
+git commit -m “Subida de las carpetas template y web/css, web/js y web/img”
+git push 
+commit #2 David
+git pull
+git add .
+git commit -m “Subida de archivos Config, controller e index”
+git push
+commit #3 Jesús
+git pull
+git add .
+git commit -m “Subida definitiva de las carpetas vacías (js y image)”
+git push
+//Las carpetas no se subieron la primera vez debido a que estaban vacías (github no permite subir carpetas sin archivos
+
+
+commit #4 Jesús
+git pull
+git add .
+git commit -m “Valoraciones de los compañeros "valoraciones.txt"
+git push
+commit #5 Gregorio
+git pull
+git add .
+git commit -m “Archivo Model.php subido”
+git push
+commit #6 Jesús
+git pull
+git add .
+git commit -m “Creacion de README.md con las valoraciones”
+git push
+commit #7 Gregorio
+git pull
+git add instrucciones.txt
+git commit -m “Instrucciones.txt subido”
+git push
+
+
+commit #8 David
+git pull
+git add .
+git commit -m “Histórico.txt subido”
+git push
+
+
+Conexión SSH
+conexión por ssh: ssh gregorio79@185.42.105.20
+crear carpeta para el proyecto: mkdir proyectoAlimentos
+cd proyectoAlimentos
+clonar repositorio del proyecto: git clone https://github.com/Raillo1/GRUPO2DAW24
+Abrir el proyecto: www.gregoriobs9902.es.mialias.net/web/proyectoAlimentos/web/index.php
