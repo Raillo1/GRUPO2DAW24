@@ -1,0 +1,23 @@
+**INSTALACIÓN Y DESPLIEGUE DEL PROYECTO EN EL HOSTING**
+
+**1. Creación de la base de datos en CDMON**
+1. Accedí al panel de control de CDMON con las credenciales correspondientes.
+2. Navegué a la sección "Gestión de bases de datos" y seleccioné la opción para crear una nueva base de datos.
+3. Configuré los parámetros de la base de datos:
+   - Nombre: alimentos22024
+   - Usuario: mygregorio40
+   - Contraseña: ********
+   - Tipo de base de datos: MySQL
+4. Una vez creada, accedí al gestor de bases de datos (phpMyAdmin) y ejecuté el script SQL que me proporcionó el profesor para crear la tabla de alimentos
+
+
+**2. Configuración del repositorio local y subida a GitHub**
+1. Cloné el repositorio del grupo en mi máquina local, git clone y copiar la url del repositorio
+2. Navegué al directorio "app" y añadí el archivo "Model.php".
+3. Realicé un commit y subí los cambios al repositorio.
+
+
+**3. Despliegue en el hosting mediante SSH**
+1. Accedí al servidor de CDMON mediante SSH: (ssh gregorio79@185.42.105.20)
+2. Navegué al directorio donde se alojará el proyecto: cd  /web
+3. Creé la carpeta proyectoAlimentos y ahí cloné el repositorio de git dentro del hosting.
